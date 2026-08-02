@@ -1,8 +1,28 @@
 aid: to-summer
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/to-summer.png
 name: To Summer
-description: 'To Summer is a company surfaced as a portfolio company of idg-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  To Summer (观夏 / Guanxia) is a Chinese premium home-fragrance and lifestyle
+  brand founded in Beijing, known for its Eastern-inspired scented candles,
+  incense, diffusers, perfumes, and bath and body products. Positioned as a
+  direct-to-consumer scent brand, it sells primarily through its own website,
+  WeChat mini-program, Tmall flagship store, and a growing footprint of
+  physical concept stores across China. To Summer is backed by IDG Capital and
+  was surfaced through the API Evangelist venture-portfolio pipeline. As a
+  consumer retail brand it exposes a customer-facing e-commerce experience
+  rather than a public developer API; this profile captures its identity and
+  the outcome of an enrichment probe that found no public API surface.
 url: https://raw.githubusercontent.com/api-evangelist/to-summer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +32,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Retail
+- E-Commerce
+- Fragrance
+- Beauty
+- Lifestyle
+- China
 apis: []
+common:
+- type: DomainSecurity
+  url: security/to-summer-domain-security.yml
+- type: Website
+  url: https://tosummer.cn/cn
+- type: Website
+  url: https://tosummer.cn/en
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
