@@ -35,6 +35,9 @@ description: >-
   rather than a public developer API; this profile captures its identity and
   the outcome of an enrichment probe that found no public API surface.
 url: https://raw.githubusercontent.com/api-evangelist/to-summer/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "As a consumer retail brand it exposes a customer-facing e-commerce experience rather than a public developer API; this profile captures its identity and the outcome of an enrichment probe that found n"
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
